@@ -23,21 +23,21 @@ A visually engaging and responsive web application built to demonstrate practica
 - Clean, modular code structure
 
 ### 📸 Screenshots
-![webpage](https://github.com/bhavani-mhrl/My-portofolio/blob/3290886bbe7c7d908168afd74a4a352a5680f3fa/Screenshot%202025-09-24%20142824.png)
+![webpage](https://github.com/asiya2123/My-webpage/blob/4df99303e4e7d7f3d85478efc50a78fe1813a689/Screenshot%202025-09-24%20160700.png)
 
 - Homepage with theme toggle
 
-![webpage](https://github.com/bhavani-mhrl/My-portofolio/blob/363d63f400521e7368a0230ca2f9a0f0a47ad405/Screenshot%202025-09-24%20143446.png)
+![webpage](https://github.com/asiya2123/My-webpage/blob/4df99303e4e7d7f3d85478efc50a78fe1813a689/Screenshot%202025-09-24%20161302.png)
 
 ---
 
-![webpage](https://github.com/bhavani-mhrl/My-portofolio/blob/95ed9fd658795e83227c96a3f3b0e8e634baff6c/Screenshot%202025-09-24%20143501.png)
+![webpage](https://github.com/asiya2123/My-webpage/blob/4df99303e4e7d7f3d85478efc50a78fe1813a689/Screenshot%202025-09-24%20162141.png)
 
 - Interactive section (e.g., form, animation)
 
 ---
 
-![webpage](https://github.com/bhavani-mhrl/My-portofolio/blob/f7e30bd7a636a07e3480c224c4d0d482b8a6c8dc/Screenshot%202025-09-24%20143518.png)
+![webpage](https://github.com/asiya2123/My-webpage/blob/4df99303e4e7d7f3d85478efc50a78fe1813a689/Screenshot%202025-09-24%20164210.png)
 
 - Implemented slide show
 
@@ -60,7 +60,7 @@ Simple yet effective theme toggling using JavaScript and CSS classes.
 
 ### 🔗 Repository
 
-- [GitHub Repo](https://github.com/bhavani-mhrl/My-portofolio.git)
+- [GitHub Repo](https://github.com/asiya2123/My-webpage)
 
 ### 📚 What I Learned
 - How to structure a frontend project for scalability

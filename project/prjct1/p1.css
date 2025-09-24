@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+     background-color: rgb(244, 243, 250);
+}
+.nav{
+    line-height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background:linear-gradient(to right,rgb(230, 14, 14),rgb(12, 55, 244));
+}
+#icons{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+     animation: hr-scroll 5s linear 2s infinite normal;
+background: transparent;
+    
+}
+#icon{
+    height: 150px;
+    width: 100px;
+    background-size: cover;
+    margin: 1rem;
+    background: transparent;
+   
+ 
+}
+@keyframes hr-scroll{
+    0%{
+        transform: translateX(50vw);
+    }
+    100%{
+        transform: translatex(-50vw);
+    }
+    
+}
+.flt
+{
+    float: left; 
+    clear: right;   
+}
+.float-css{
+    background-color: aquamarine;
+    width: 50%;
+    clear: both;
+
+
+}

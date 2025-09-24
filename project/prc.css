@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: o;
+   
+}
+body{
+    text-align: center;
+    margin: auto;
+    
+}
+
+.hed{
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    background-color: black;
+   top: 0;
+}
+.ic{
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: white;
+}
+.ic:hover{
+    border: 1px solid white;
+}
+#menu{
+   margin-left: 1px;
+   color: white;  
+}
+/*--------menu bar-----*/
+.menu-container{
+    position: fixed;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: none;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+   left: 0;
+    top: 0;   
+}
+.li{
+    padding: 2rem;
+    color:black;
+}
+
+#home{
+    color: rgb(246, 179, 221);  
+}
+
+button:hover{
+    opacity: 0.8;
+
+}
+/*login or sign in*/
+#sign
+{
+   margin: 3rem;
+    color: white;
+    background:transparent;
+  border: 1px solid black;
+    width: 80px;
+    height: 30px;
+    margin-top: 6px;
+    font-size: larger;
+       margin-bottom: 5px;
+}
+#id02{
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.sign{
+    width: 150px;
+}
+
+ .blur 
+ {
+      filter: blur(6px);
+      
+}
+.check{
+    position: relative;
+   right: 12pc;
+    top: 30px;
+
+}
+.close,.cancl2{
+    display: block;
+font-size: 2rem;
+ position: relative;
+ left: 43%;
+  font-weight: 900;
+   color: black;
+}
+.cancl2{
+    left: 95%;
+}
+.cancl3{
+    position: relative;
+    display: block;
+    color: black;
+    font-size: 3rem;
+  right: 44.5%;
+}
+
+.close:hover,.close:focus,.cancl2:hover{
+    color: red;
+    cursor: pointer;
+}
+.imag{
+    height: 200px;
+   text-align: center;
+    border-radius: 100%;
+   
+}
+
+.form{
+    margin: 1rem;
+    padding: 5px;
+}
+input[type=text],input[type=password]{
+    width: 90%;
+    margin-bottom: 28px;
+    height: 2rem;
+    text-align: left;
+   margin-left: 40px;
+}
+
+.Login-btn,.sign-btn{
+     margin: 2px;
+    padding: 7px;
+     width:80%;
+     margin-left:3rem;
+     background-color: rgb(45, 195, 97);
+     color: white;
+     border: transparent;
+     border-radius: 10px;
+     
+}
+.foot1{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin: auto;
+}
+.cancl{
+    width: 5pc;
+    height: 30px;
+    border-radius: 3px;
+    box-shadow: inset;
+    background-color: red;
+    position: relative;
+    bottom: 3px;
+    margin-left: 2rem;
+    border:1px solid black;
+}
+    
+button:hover{
+    opacity: 0.8;
+}
+.animate{
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+@-webkit-keyframes animatezoom{
+    from{
+        -webkit-transform: scale(0)
+    }
+    to{
+        -webkit-transform:scale(1)
+    }
+}
+@keyframes animatezoom{
+    from{
+transform:scale(0) 
+    } 
+    to{
+        transform: scale(1)
+    }
+}
+
+.container,.modal{
+    position: fixed;
+    display: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-color: rgba(21, 20, 20, 0.9);
+    z-index: 1;
+    padding: 60px;
+    padding-top: 20px;
+  
+ 
+}
+.m-f{
+    margin-top: 5rem;
+    background: white;
+    width: 35%;
+    margin-left: 27%; 
+padding: 20px;
+border: 1px solid black;
+}
+.check{
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ position: relative;
+right: 10px;
+
+  
+}
+.ask1{
+    margin-top: 5rem;
+    background: white;
+    width: 40%;
+    
+   margin-bottom: 27%;
+   margin-left: 27%;
+padding: 20px;
+border: 1px solid black;
+}
+hr{
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+em{
+    position: relative;
+    left: 50%;
+    bottom: 55%;
+}
+.span3{
+    position: relative;
+    left: 45%;
+}
+.dot{
+    border: 1px solid black; 
+    text-align: left;
+}
+.mode,.mode1{
+    width: 37px;
+    height: 37px;
+}
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+.nav{
+    line-height: 90px;
+    width: 100%;
+    color:white;
+    margin-top:3rem;
+    background:linear-gradient(to right,rgb(230, 14, 14),rgb(12, 55, 244));
+}
+.para{
+    margin-top: 1px;
+}
+.text{
+    margin: 25px;
+   
+}
+.image{
+    height: 300px;
+    border-radius: 50%;
+   text-align: center;
+}
+#image{
+    height: 300px;;
+    width: 300px;
+    border-radius: 100%;
+    object-fit:fill;
+    box-shadow:-2px 2px 5px rgb(3, 54, 3);
+}
+.contact-me{
+    text-align: center;
+   margin-top: 5px;
+}
+.page{
+   margin: 5px;
+   background-color: white;
+ 
+   width: 550px;
+   margin: auto;
+    text-align: left;
+  box-shadow: -2px 5px 5px rgb(234, 161, 238);
+}
+.s-msg{
+  margin: 25px;
+    width: 450px;
+    line-height: 35px;
+    border-radius: 5px;
+    box-shadow: -3px 3px 5px black;
+    background: linear-gradient(to right,rgb(230, 14, 14),rgb(12, 55, 244));
+}
+.s-msg:hover{
+    background: linear-gradient(to left,rgb(230, 14, 14),rgb(12, 55, 244));
+    box-shadow: inset;
+    border-style: solid;
+}
+label{
+    position: relative;
+    margin-left: 7%;
+}
+.my-skill{
+    margin: 10px;
+    text-align: center;
+    
+}
+.skill{
+   line-height:30px ;
+   width: 200px;
+   color: black;
+   margin-top: 20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: -2px 2px 5px pink;
+   background-color: white;
+   animation: dance 2s ease-in-out 2s infinite normal ;
+}
+@keyframes dance {
+    0%{
+        transform: translateX(1vw);
+    }
+    10%{
+        transform: translatey(1vw);
+    }
+    
+}
+#icons{
+    display: flex;
+    overflow-x: hidden;
+    width: max-content;
+    overflow: hidden;
+     animation: hr-scroll 5s linear 2s infinite normal;
+
+    
+}
+#icon{
+    height: 60px;
+    width: 50px;
+    background: transparent;
+    background-size: cover;
+  margin:5rem;
+ 
+}
+@keyframes hr-scroll{
+    0%{
+        transform: translateX(50vw);
+    }
+    100%{
+        transform: translatex(-50vw);
+    }
+    
+}
+.prjts{
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.prjt{
+   
+    margin: 5px;
+}
+/*****pre post img*****/
+.img1{
+    display: none;
+   
+    
+}
+img{
+    width: 50%;
+     vertical-align: middle;
+     height: 300px;
+  
+}
+.num-text{
+   position: relative;
+   top: 50px;
+   right: 300px;
+}
+#cont{
+ 
+ width: 100%;
+}
+.pre,.next{
+    width: 20px;
+    height: 10px;
+   position:relative;
+    padding: 16px;
+    color: rgb(3, 2, 2);
+    background-color: whitesmoke;
+ 
+    font-size: 18px;
+   bottom: 10rem;
+    font-weight: bold;
+    transition: 0.6s ease;
+    user-select: none
+}
+.pre:hover,.next:hover{
+    background-color: #717171;
+    cursor: pointer;
+}
+.caption-text{
+    position: relative;
+    left: 30px;
+    bottom: 25px;
+    color:rgb(18, 17, 17);
+    font-size:1.5rem;
+}
+.next{
+   left: 21pc;
+   border-radius: 20% 0 0 20%;
+    
+}
+.pre{
+  right: 21pc;
+     border-radius: 0 20% 20% 0;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.dot-boll{
+  
+position: relative;
+left:2rem;
+bottom: 3rem;
+}
+.dot1{
+    cursor: pointer;
+    background-color:#bbb;
+    height:10px ;
+    width: 10px;
+   margin: 2px;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ 
+}
+.active,.dot1:hover {
+  background-color: #717171;
+}
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#info{
+ 
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    margin-bottom: 5px;
+    color: white;
+}
+.icon1{
+    background-color: rgb(239, 115, 52);
+    margin: 5px;
+}
+.icon2{
+   background-color: blue;
+   margin: 5px;
+}
+.icon1,.icon2{
+   border-radius: 100%;
+   font-size: 1.5rem;
+    padding: 13px;
+}
+.foot{
+    background: linear-gradient(to right,rgb(230, 14, 14),rgb(12, 55, 244));;
+    color: white;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

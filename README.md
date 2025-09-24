@@ -76,4 +76,4 @@ Simple yet effective theme toggling using JavaScript and CSS classes.
 
 🙌 **Thank You!**
 
-👩‍💻 Developed by: BHAVANI MACHARLA (Bhavani-mhrl,Myportofolio)
+👩‍💻 Developed by: Asiya Shail (Asiya_Sk,Mywebpage)

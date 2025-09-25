@@ -1,13 +1,33 @@
-#  🌐 My Personal WebPage
+#  🌐 My Portofolio WebPage
 
 ## 🌟 Portfolio Project
 
-A visually engaging and responsive web application built to demonstrate practical frontend development skills, creative UI design, and clean code architecture. This project is part of my personal portfolio to showcase my growth as a developer and readiness for real-world challenges.
+Welcome to my personal portfolio website! This project showcases my frontend development skills through responsive design, interactive features, and clean UI/UX principles. Built with HTML, CSS, and JavaScript, it reflects my passion for web development and my readiness for real-world internships.
 
 ### 🛠️ Tech Stack
-- **HTML5** – Semantic structure
-- **CSS3** – Responsive layout, animations, and theme toggling
-- **JavaScript** – Dynamic interactions and logic
+- Languages: HTML5, CSS3, JavaScript (ES6+)
+- Design: Flexbox, Grid, Media Queries, CSS Animations
+- Tools: Git, GitHub, VS Code
+- Extras: Font Awesome, Google Fonts, Emojis 😄
+
+### 🚀 Getting Started
+
+#### To run this project locally:
+
+git clone: 
+
+https://github.com/yourusername/portfolio-website.git
+
+cd portfolio-website
+
+open index.html
+
+### 📚 What I Learned
+
+- Building responsive layouts from scratch
+- Managing Git branches and resolving merge conflicts
+- Writing beginner-friendly documentation with emojis 😎
+- Debugging layout issues across browsers and devices
 
 ### 🎯 Project Goals
 - Build a fully functional and visually appealing web interface

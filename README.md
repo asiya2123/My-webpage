@@ -11,11 +11,8 @@ A responsive and interactive portfolio website built using HTML, CSS, and JavaSc
 - 👋 Hero section with animated intro and call-to-action
 - 🛠️ Skills section with tech stack icons and hover effects
 - 📁 Projects section with clickable cards and preview links
-- 📄 Resume download button
 - 📬 Contact form with JavaScript validation
-- 📱 Responsive layout using Flexbox and media queries
-- 🎨 Smooth transitions and scroll animations
-
+- 
 ---
 
 ## 🧰 Tech Stack
